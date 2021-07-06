@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+pre {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.header {
+    width: auto;
+    height: 150px;
+    background-color: rgb(111, 157, 172);
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    margin-top: -110px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 5px 0 0 0;
+    font-size: 24px;
+    color: rgb(20, 34, 39);
+}
+
+h3 {
+    margin: 0;
+    color: rgb(20, 34, 39);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    size: 3px;
+    width: 1200px;
+}
+
+.section {
+    width: 1300px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.heading {
+    margin-left: 120px;
+    font-size: 14px;
+    font-style: italic;
+    width: 450px;
+}
+
+.text {
+    margin-left: 50px;
+    font-style: normal;
+    font-size: 14px;
+} 
+
+.heading2 {
+    margin-left: -250px;
+    font-size: 14px;
+    font-style: italic;
+    width: 150px;
+}
+
+.text2 {
+    margin-left: 170px;
+    font-style: normal;
+    font-size: 14px;
+} 
+
+.heading3 {
+    margin-left: -350px;
+    font-size: 14px;
+    font-style: italic;
+    width: 100px;
+}
+
+.text3 {
+    margin-left: 150px;
+    font-style: normal;
+    font-size: 14px;
+} 
+
+.link {
+    padding-bottom: 15px;
+}
+
+a {
+    color: rgb(15, 21, 65);
+}
+
+.heading4 {
+    margin-left: -700px;
+    font-size: 14px;
+    font-style: italic;
+    width: 150px;
+}
+
+.text4 {
+    margin-left: 180px;
+    font-style: normal;
+    font-size: 14px;
+} 
+
+.heading5 {
+    margin-left: -410px;
+    font-size: 14px;
+    font-style: italic;
+    width: 150px;
+}
+
+.text5 {
+    margin-left: 180px;
+    font-style: normal;
+    font-size: 14px;
+} 
+
+
+.footer {
+    width: auto;
+    height: auto;
+    min-height: 70px;
+    background-color: rgb(111, 157, 172);
+}
+
+footer .foto {
+    display: inline-flex;
+    margin: 20px 0 20px 300px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 40%;
+    margin: 0 5px 0 0;
+}
+
+.icon_rs {
+    width: 75px;
+    height: 25px;
+    margin: 0 5px 0 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.contact {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
