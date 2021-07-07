@@ -173,5 +173,10 @@ footer .foto {
 }
 
 h2, p {
-    margin: 10px 0 0 0;
+    margin: 10px 0 20px 0;
+}
+
+.skillsName {
+    display: inline-block;
+    width: 130px;
 }
