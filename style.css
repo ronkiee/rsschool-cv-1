@@ -1,5 +1,6 @@
-body {
+body {   
     margin: 0;
+    padding: 0;
     display: block;
     justify-content: center;
     align-items: center;
@@ -9,12 +10,13 @@ body {
 
 pre {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
 }
 
 .header {
     width: auto;
-    height: 150px;
+    margin-left: 8em;
+    margin-right: 8em;
+    height: 120px;
     background-color: rgb(111, 157, 172);
 }
 
@@ -36,8 +38,8 @@ pre {
 }
 
 h1 {
-    margin: 5px 0 0 0;
-    font-size: 24px;
+    margin: 15px 0 0 0;
+    font-size: 36px;
     color: rgb(20, 34, 39);
 }
 
@@ -47,118 +49,116 @@ h3 {
 }
 
 main {
+    margin: 25px 0 0 0;
     display: flex;
     flex-direction: column;
 }
 
 hr {
     size: 3px;
-    width: 1200px;
+    width: 68em;
 }
 
 .section {
-    width: 1300px;
+    width: 65em;
     display: inline-flex;
     justify-content: center;
+    align-items: baseline;
+    margin-left: 10em;
+}
+
+ul {
+    padding: 0;
+}
+
+.skills {
+    margin: 0;
+    padding: 0 0 0 1em;
+}
+
+ul.contacts li{
+    display: inline-block;
+    margin-right: 3em;
 }
 
 .heading {
-    margin-left: 120px;
-    font-size: 14px;
-    font-style: italic;
-    width: 450px;
+    display: block;
+    font-size: 20px;
+    font-style: itaclass="text"lic;
+    width: 250px;
 }
 
 .text {
-    margin-left: 50px;
+    display: block;
     font-style: normal;
-    font-size: 14px;
-} 
-
-.heading2 {
-    margin-left: -250px;
-    font-size: 14px;
-    font-style: italic;
-    width: 150px;
-}
-
-.text2 {
-    margin-left: 170px;
-    font-style: normal;
-    font-size: 14px;
-} 
-
-.heading3 {
-    margin-left: -350px;
-    font-size: 14px;
-    font-style: italic;
-    width: 100px;
-}
-
-.text3 {
-    margin-left: 150px;
-    font-style: normal;
-    font-size: 14px;
+    font-size: 22px;
+    width: 40em;
 } 
 
 .link {
     padding-bottom: 15px;
+}
+.link_none {
+    list-style-type: none;
 }
 
 a {
     color: rgb(15, 21, 65);
 }
 
-.heading4 {
-    margin-left: -700px;
+code {
     font-size: 14px;
-    font-style: italic;
-    width: 150px;
 }
 
-.text4 {
-    margin-left: 180px;
-    font-style: normal;
-    font-size: 14px;
-} 
-
-.heading5 {
-    margin-left: -410px;
-    font-size: 14px;
-    font-style: italic;
-    width: 150px;
+.circle1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: rgb(25, 15, 138);
 }
 
-.text5 {
-    margin-left: 180px;
-    font-style: normal;
-    font-size: 14px;
-} 
+.circle2 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: rgb(99, 150, 209);
+}
 
+.circle3 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgb(25, 15, 138),    rgb(99, 150, 209));
+}
 
 .footer {
     width: auto;
-    height: auto;
-    min-height: 70px;
+    margin-left: 8em;
+    margin-right: 8em;
+    min-height: 80px;
     background-color: rgb(111, 157, 172);
 }
 
 footer .foto {
     display: inline-flex;
-    margin: 20px 0 20px 300px;
+    margin: 25px 0 0 200px;
 }
 
 .icon {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border-radius: 40%;
-    margin: 0 5px 0 0;
 }
 
-.icon_rs {
-    width: 75px;
-    height: 25px;
-    margin: 0 5px 0 0;
+.icon-rs {
+    width: 100px;
+    height: 30px;
 }
 
 .a {
@@ -167,8 +167,11 @@ footer .foto {
 
 .contact {
     display: inline-block;
-    margin: 0;
-    font-size: 14px;
+    font-size: 20px;
     font-style: italic;
     font-weight: bold;
+}
+
+h2, p {
+    margin: 10px 0 0 0;
 }
