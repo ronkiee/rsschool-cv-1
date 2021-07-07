@@ -1,1 +1,3 @@
-https://taleatg.github.io/rsschool-cv/cv
+
+https://taleatg.github.io/rsschool-cv/
+
